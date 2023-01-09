@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="forma">
+    <h2>Registration:</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="name"> <br>
+    <div id="name-error" class="error-msg"></div> 
+    <br>
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" placeholder="surname"> <br>
+    <div id="surname-error" class="error-msg"></div> 
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="password"> <br>
+    <div id="password-error" class="error-msg"></div>
+    <br>
+    <label for="course">Course:</label>
+    <select name="course" id="course">
+        <option value="0" selected>Choose your course</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS">JavaScript</option>
+        <option value="React">React</option>
+    </select>
+    <br>
+    <div id="course-error" class="error-msg"></div>
+    <br>
+    <button type="submit" id="btn-register">Register</button>
+    <br>
+   
+</div>
+
+
+<div id="user-review"></div>
+
+
+    
+    <script src="registration.js"></script>
+</body>
+</html>

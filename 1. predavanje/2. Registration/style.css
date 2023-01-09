@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+#forma {
+    margin: 20px auto;
+    border: 1px solid #000;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#forma h2 {
+    margin-bottom: 60px;
+}
+
+#forma label {
+    display: block;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#forma label:last-of-type {
+    text-align: center;
+}
+
+#forma input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#forma button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+}
+
+#forma button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.error-msg {
+    color: red;
+}
+
+#user-review {
+    text-align: center;
+}
